@@ -1,0 +1,32 @@
+@-webkit-keyframes loop-roll {
+  from {
+    background-position: center 0px;
+  }
+  to {
+    background-position: center -460;
+  }
+}
+
+@keyframes loop-roll {
+  from {
+    background-position: center 0px;
+  }
+  to {
+    background-position: center -460;
+  }
+}
+.loop-roll {
+  -webkit-animation: loop-roll 20s linear infinite;
+  animation: loop-roll 20s linear infinite;
+  background-size: initial;
+  transform: translateZ(0px);
+}
+.employers-logoBar {
+  background-color: #2C2B29;
+  background: url(../images/bannerLogo.png);
+  opacity: .3;
+  background-repeat: repeat-y;
+  background-size: inherit;
+  height: 320px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5) inset;
+}
