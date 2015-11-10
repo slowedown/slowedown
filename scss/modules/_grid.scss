@@ -115,20 +115,20 @@
   clear: both;
 }
 .only {
-  background-color: mix($primary-color, complement($primary-color));
-  color: #000;
+  background-color: $tetrad-bl;
+  color: $dark-grey;
   height: 45%;
   text-align: center;
 }
 .left {
-  background-color: mix($primary-color, #fff);
-  color: invert($primary-color);
+  background-color: $tetrad-gr;
+  color: $tetrad-rd;
   height: 45%;
   text-align: right;
 }
 .right {
-  background-color: mix(complement($primary-color), #fff);
-  color: invert(complement($primary-color));
+  background-color: $tetrad-rd;
+  color: $tetrad-gr;
   height: 45%;
   text-align: left;
 }
