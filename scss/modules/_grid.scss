@@ -117,18 +117,18 @@
 .only {
   background-color: mix($primary-color, complement($primary-color));
   color: #000;
-  height: 25%;
+  height: 45%;
   text-align: center;
 }
 .left {
   background-color: mix($primary-color, #fff);
   color: invert($primary-color);
-  height: 25%;
+  height: 45%;
   text-align: right;
 }
 .right {
   background-color: mix(complement($primary-color), #fff);
   color: invert(complement($primary-color));
-  height: 25%;
+  height: 45%;
   text-align: left;
 }
