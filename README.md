@@ -1,4 +1,4 @@
-This is just a simple project I am working out for practice/experience.  I used a modified version of Skeleton for SASS* to style this project and tweaked it for my purposes.
+This is just a simple project I am working on for practice/experience.  I used a modified version of Skeleton for SASS* to style this project and tweaked it for my purposes.
 To compile SASS I used Grunt and node.js.
 I primarily used GitHub to manage files more easily, and they were uploaded with Deploy and seldomly with FileZilla.
 Finally this site is hosted by GoDaddy and will change drastically as I learn more.
