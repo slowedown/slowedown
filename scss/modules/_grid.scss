@@ -16,7 +16,6 @@
   padding: 0 20px;
   box-sizing: border-box;
 }
-
 .column,
 .columns {
   width: 100%;
@@ -38,19 +37,38 @@
   color: $tetrad-gr;
   text-align: left;
 }
-
+.block {
+  margin: 0;
+  padding: 0;
+  min-height: $block-min-height;
+  
+  overflow: hidden;
+}
+.top {
+  margin-top: 25%;
+}
+.bottom {
+  margin-bottom: 25%;
+}
 // For devices larger than 400px
-@media (#{$bp-larger-than-mobile}) {
+// 400px - 432px [Vertical] Phablet
+@media (#{$bp-3}) {
   .container {
-    width: $container-width-larger-than-mobile;
+    width: $bp-5;
     padding: 0;
+  }
+  .top {
+  margin-top: 0%;
+  }
+  .bottom {
+    margin-bottom: 0%;
   }
 }
 
-// For devices larger than 550px
-@media (#{$bp-larger-than-phablet}) {
+// 432px - 667px [Horizontal] Mobile
+@media (#{$bp-4}) {
   .container {
-    width: $container-width-larger-than-phablet;
+    width: $bp-6;
   }
   .column,
   .columns {

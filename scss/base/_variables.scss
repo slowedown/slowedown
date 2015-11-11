@@ -2,11 +2,22 @@
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 // Breakpoints
-$bp-larger-than-mobile    : "min-width: 400px" !default;
-$bp-larger-than-phablet   : "min-width: 550px" !default;
-$bp-larger-than-tablet    : "min-width: 750px" !default;
-$bp-larger-than-desktop   : "min-width: 1000px" !default;
-$bp-larger-than-desktophd : "min-width: 1200px" !default;
+$bp-1  : "min-width: 100px" !default;
+$bp-2  : "min-width: 320px" !default;
+$bp-3  : "min-width: 400px" !default;
+$bp-4  : "min-width: 432px" !default;
+$bp-5  : "min-width: 667px" !default;
+$bp-6  : "min-width: 768px" !default;
+$bp-7  : "min-width: 960px" !default;
+$bp-8  : "min-width: 1920px" !default;
+$bp-9  : "min-width: 3840px" !default;
+$bp-10 : "min-width: 5760px" !default;
+
+$bp-VH : "min-width: 0px" !default;
+$bp-VF : "min-width: 540px" !default;
+$bp-HH : "min-width: 0px" !default;
+$bp-HT : "min-width: 960px" !default;
+
 
 // Colors
 $light-grey: #e1e1e1 !default;
@@ -26,11 +37,11 @@ $font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sa
 
 //Grid Variables
 $container-width: 1300px !default;
-$container-width-larger-than-mobile: 85% !default;
-$container-width-larger-than-phablet: 80% !default;
+$block-min-height: 200px !default;
 $total-columns: 12 !default;
 $column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
 $column-margin: 0% !default; // space between columns
+
 
 // Misc
 $global-radius: 4px !default;

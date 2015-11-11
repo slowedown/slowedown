@@ -1,22 +1,63 @@
 // Media Queries
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Note: The best way to structure the use of media queries is to create the queries
-// near the relevant code. For example, if you wanted to change the styles for buttons
-// on small devices, paste the mobile query code up in the buttons section and style it
-// there.
+//I got bored with how this guy set up his responsive design, so I made mine a bit more technical
 
-// Larger than mobile
-@media (#{$bp-larger-than-mobile}) {}
 
-// Larger than phablet (also point when grid becomes active)
-@media (#{$bp-larger-than-phablet}) {}
+//----------------------------------------------------------------------------------------------
+// Key
+//----------------------------------------------------------------------------------------------
+// MW [Vertical/Horizontal] D 		= (M)inimum [(V)ertical or (H)orizontal] (W)idth of (D)evice
+// mW - MW							= min-width to Max-width Range
+// V 								= Vertical = Portrait
+// H 								= Horizontal = Landscape
+// D								= Name of Device
 
-// Larger than tablet
-@media (#{$bp-larger-than-tablet}) {}
+// 100px [Vertical] Novelty
+@media (#{$bp-1}) {}
 
-// Larger than desktop
-@media (#{$bp-larger-than-desktop}) {}
+// 320px [Vertical] Mobile
+@media (#{$bp-2}) {}
 
-// Larger than Desktop HD
-@media (#{$bp-larger-than-desktophd}) {}
+// 400px [Vertical] Phablet
+@media (#{$bp-3}) {}
+
+// 432px [Horizontal] Mobile
+@media (#{$bp-4}) {}
+
+// 667px [Horizontal] Phablet
+@media (#{$bp-5}) {}
+
+// 768px [Vertical] Tablet
+@media (#{$bp-6}) {}
+
+// 960px [Horizontal] HD Full Screen (1920 x 1080) Desktop
+@media (#{$bp-7}) {}
+
+// 1920px [Vertical/Horiztontal] Two HD Full Screen (1920 x 1080) Desktops
+@media (#{$bp-8}) {}
+
+// 3840px [Vertical/Horiztontal] Three HD Full Screen (1920 x 1080) Desktops
+@media (#{$bp-9}) {}
+
+// 5760px [Vertical/Horiztontal] Four HD Full Screen (1920 x 1080) Desktops
+@media (#{$bp-10}) {}
+
+//Interactive Theme Options
+//-----------------------------------------------------------------
+
+//Vertical Monitor Mode----------------------------------------
+// 0px [Vertical] HD Half Screen (1920 x 1080) Desktop
+@media (#{$bp-VH}) {}
+
+// 540px [Vertical] HD Full Screen (1920 x 1080) Desktop
+@media (#{$bp-VF}) {}
+
+//Half Screen Mode-----------------------------------------------
+// 0px [Horizontal] HD Half Screen (1920 x 1080) Desktop
+@media (#{$bp-HH}) {}
+
+//Horizontal Tablet Mode-------------
+// 960px [Horizontal] Tablet
+@media (#{$bp-HT}) {}
+
