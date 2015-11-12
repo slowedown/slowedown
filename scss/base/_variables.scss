@@ -1,37 +1,6 @@
 // Variables
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Breakpoints
-$bp-1  : "min-width: 100px" !default;
-$bp-2  : "min-width: 320px" !default;
-$bp-3  : "min-width: 400px" !default;
-$bp-4  : "min-width: 432px" !default;
-$bp-5  : "min-width: 667px" !default;
-$bp-6  : "min-width: 768px" !default;
-$bp-7  : "min-width: 960px" !default;
-$bp-8  : "min-width: 1920px" !default;
-$bp-9  : "min-width: 3840px" !default;
-$bp-10 : "min-width: 5760px" !default;
-
-$bp-VH : "min-width: 0px" !default;
-$bp-VF : "min-width: 540px" !default;
-$bp-HH : "min-width: 0px" !default;
-$bp-HT : "min-width: 960px" !default;
-
-
-// Colors
-$light-grey: #e1e1e1 !default;
-$dark-grey: #3b3836 !default;
-$primary-color: #339966 !default;
-$secondary-color: lighten($dark-grey, 13.5%) !default;
-$border-color: #bbb !default;
-$link-color: #1eaedb !default;
-$font-color: #222 !default;
-$tetrad-gr: #339966;
-$tetrad-bl: #336699;
-$tetrad-rd: #993366;
-$tetrad-yl: #996633;
-
 // Typography
 $font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 

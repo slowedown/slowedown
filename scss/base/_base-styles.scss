@@ -13,17 +13,6 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: $font-family;
-  color: $font-color;
-}
-
-// Links
-//––––––––––––––––––––––––––––––––––––––––––––––––––
-
-a {
-  color: $link-color;
-  &:hover {
-    color: darken($link-color, 5%);
-  }
 }
 
 // Misc
@@ -33,5 +22,5 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: .1rem solid $light-grey;
+  border-top: .1rem solid $primary-color;
 }

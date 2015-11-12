@@ -7,6 +7,8 @@
 * 12/9/2014
 * Sass Version by Seth Coelen https://github.com/whatsnewsaes
 */
+/*Original
+
 
 /* Base files. */
 @import "base/normalize";
@@ -15,7 +17,15 @@
 @import "base/base-styles";
 @import "base/utils";
 @import "base/typography";
+
+
+/*Tweaked/Updated by me
+/* Base files. */
 @import "base/animations";
+@import "base/colors";
+@import "base/links";
+@import "base/break-points";
+
 
 /* Modules */
 @import "modules/grid";
@@ -26,5 +36,3 @@
 @import "modules/tables";
 @import "modules/spacing";
 @import "modules/media-queries";
-
-
