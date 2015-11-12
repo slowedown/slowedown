@@ -1,7 +1,7 @@
 // Media Queries
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
-//I got bored with how this guy set up his responsive design, so I made mine a bit more technical
+//I got bored with how this guy set up his responsive design, so I made mine a bit more detailed.
 
 
 //----------------------------------------------------------------------------------------------
@@ -14,50 +14,50 @@
 // D								= Name of Device
 
 // 100px [Vertical] Novelty
-@media (#{$bp-1}) {}
+@media ($Small-Fun ) {}
 
 // 320px [Vertical] Mobile
-@media (#{$bp-2}) {}
+@media ($mobile-port) {}
 
 // 400px [Vertical] Phablet
-@media (#{$bp-3}) {}
+@media ($phablet-port) {}
 
 // 432px [Horizontal] Mobile
-@media (#{$bp-4}) {}
+@media ($mobile-land) {}
 
 // 667px [Horizontal] Phablet
-@media (#{$bp-5}) {}
+@media ($phablet-land) {}
 
 // 768px [Vertical] Tablet
-@media (#{$bp-6}) {}
+@media ($tablet-port) {}
 
 // 960px [Horizontal] HD Full Screen (1920 x 1080) Desktop
-@media (#{$bp-7}) {}
+@media ($HD-fullscreen) {}
 
 // 1920px [Vertical/Horiztontal] Two HD Full Screen (1920 x 1080) Desktops
-@media (#{$bp-8}) {}
+@media ($two-monitors) {}
 
 // 3840px [Vertical/Horiztontal] Three HD Full Screen (1920 x 1080) Desktops
-@media (#{$bp-9}) {}
+@media ($three-monitors) {}
 
 // 5760px [Vertical/Horiztontal] Four HD Full Screen (1920 x 1080) Desktops
-@media (#{$bp-10}) {}
+@media ($four-queen) {}
 
 //Interactive Theme Options
 //-----------------------------------------------------------------
 
 //Vertical Monitor Mode----------------------------------------
 // 0px [Vertical] HD Half Screen (1920 x 1080) Desktop
-@media (#{$bp-VH}) {}
+@media ($port-hdHalf) {}
 
 // 540px [Vertical] HD Full Screen (1920 x 1080) Desktop
-@media (#{$bp-VF}) {}
+@media ($port-hdFull) {}
 
 //Half Screen Mode-----------------------------------------------
 // 0px [Horizontal] HD Half Screen (1920 x 1080) Desktop
-@media (#{$bp-HH}) {}
+@media ($land-hdHalf) {}
 
 //Horizontal Tablet Mode-------------
 // 960px [Horizontal] Tablet
-@media (#{$bp-HT}) {}
+@media ($land-tablet) {}
 

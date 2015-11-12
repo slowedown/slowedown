@@ -1,26 +1,26 @@
 // Breakpoints
 
-$bp-1-Small-Fun  			: "min-width: 100px" !default;
-$bp-2-mobile-portrait	  	: "min-width: 320px" !default;
-$bp-3-phablet-portrait	  	: "min-width: 400px" !default;
-$bp-4-mobile-landscape 		: "min-width: 432px" !default;
-$bp-5-phablet-landscape		: "min-width: 667px" !default;
-$bp-6-tablet-portrait		: "min-width: 768px" !default;
-$bp-7-HD-fullscreen			: "min-width: 960px" !default;
-$bp-8-two-monitors			: "min-width: 1920px" !default;
-$bp-9-three-monitors		: "min-width: 3840px" !default;
-$bp-10-four-the-queen		: "min-width: 5760px" !default;
+$Small-Fun  		: "min-width: 100px" !default;
+$mobile-port	  	: "min-width: 320px" !default;
+$phablet-port	  	: "min-width: 400px" !default;
+$mobile-land 		: "min-width: 432px" !default;
+$phablet-land		: "min-width: 667px" !default;
+$tablet-port		: "min-width: 768px" !default;
+$HD-fullscreen		: "min-width: 960px" !default;
+$two-monitors		: "min-width: 1920px" !default;
+$three-monitors		: "min-width: 3840px" !default;
+$four-queen			: "min-width: 5760px" !default;
 
 
 //Fun Breakpoints, possibly to use with themes, highly specialized, and possibly pointless, but like, come on, I did the math
 
-$bp-a-landscape-hd-half			: "max-width: 960px" !default;
-$bp-a-landscape-hd-full			: "max-width: 1920px" !default;
-$bp-b-portrait-hd-full			: "max-width: 1080px" !default;
-$bp-b-portrait-hd-half			: "max-width: 540px" !default;
-$bp-c-landscape-tablet			: "max-width: 1366px" !default;
-$bp-c-portrait-tablet			: "max-width: 1024px" !default;
-$bp-d-landscape-phablet			: "max-width: 768px" !default;
-$bp-d-portrait-phablet			: "max-width: 432px" !default;
-$bp-e-landscape-mobile			: "max-width: 667px" !default;
-$bp-e-portrait-mobile			: "max-width: 432px" !default;
+$land-hdHalf			: "max-width: 960px" !default;
+$land-hdFull			: "max-width: 1920px" !default;
+$port-hdFull			: "max-width: 1080px" !default;
+$port-hdHalf			: "max-width: 540px" !default;
+$land-tablet			: "max-width: 1366px" !default;
+$port-tablet			: "max-width: 1024px" !default;
+$land-phablet			: "max-width: 768px" !default;
+$port-phablet			: "max-width: 432px" !default;
+$land-mobile			: "max-width: 667px" !default;
+$port-mobile			: "max-width: 432px" !default;
