@@ -6,12 +6,12 @@ I primarily used GitHub to manage files more easily, and they were uploaded with
 Finally this site is hosted by GoDaddy and will change drastically as I learn more.
 Creating this site has been a challenging experience, however extremely rewarding. I feel comfortable creating and maintaining a site at this time.
 
-Addendum(11/11/15) - I began this project to create a really modern sleek website.  Instead I have started a ground work that I would like to be able market as my own and help others build their sites.  Is it possible to create one master skeleton with a growing list of themes to drastically alter pages?  I think about that more later, in the mean time, check out kirby getting down:
+Addendum(11/11/15) - I began this project to create a modern, sleek website. Clearly, that did not happen. Instead I have started a ground work that I would like to be able to market as my own and help others build their sites.  Is it possible to create one master skeleton with a growing list of themes to drastically alter pages?  I'll think about that more later. For the time being, check out Kirby getting down:
 
 
-<(  '' <)  <(  ''  )>  (>  ''  )>      =]
+<(  '' <)  <(   ''   )>  (>  ''  )>                                                 =]
 
-
+You go Kirby.  You earned it.
 
 Credits* -
 # [Skeleton-Sass](http://getskeleton.com)
