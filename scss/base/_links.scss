@@ -5,16 +5,16 @@ a {
   color: $link-color;
   text-decoration: none;
   &:visited {
-  	color: complement($link-color);
+  	color: saturate(complement($link-color), 20%);
   	text-decoration: none;
   }
   &:hover {
-  	color: darken($link-color, 10%);
+  	color: darken($link-color, 20%);
     text-decoration: underline;
   }
   
   &:active {
-  	color: invert($link-color);
+  	color: lightens(invert($link-color), 20%);
   	text-decoration: underline;
   }
 }

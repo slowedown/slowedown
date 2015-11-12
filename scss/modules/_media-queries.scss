@@ -43,21 +43,3 @@
 // 5760px [Vertical/Horiztontal] Four HD Full Screen (1920 x 1080) Desktops
 @media ($four-queen) {}
 
-//Interactive Theme Options
-//-----------------------------------------------------------------
-
-//Vertical Monitor Mode----------------------------------------
-// 0px [Vertical] HD Half Screen (1920 x 1080) Desktop
-@media ($port-hdHalf) {}
-
-// 540px [Vertical] HD Full Screen (1920 x 1080) Desktop
-@media ($port-hdFull) {}
-
-//Half Screen Mode-----------------------------------------------
-// 0px [Horizontal] HD Half Screen (1920 x 1080) Desktop
-@media ($land-hdHalf) {}
-
-//Horizontal Tablet Mode-------------
-// 960px [Horizontal] Tablet
-@media ($land-tablet) {}
-

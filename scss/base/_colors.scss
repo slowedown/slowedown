@@ -1,58 +1,100 @@
-// Colors
+// COLORS
 
-$primary-color	: #339966 !default;
-$secondary-color: #000000 !default;
-$border-color	: #000000 !default;
-$link-color		: #3399CC !default;
-$font-color		: #000000 !default;
-$a-tetrad-color	: #339966;
-$b-tetrad-color	: #333399;
-$c-tetrad-color	: #993399;
-$d-tetrad-color	: #999933;
+//BLACKS
+$black				: #000 !default;
 
-//Whites
-$white-color	: #ffffff !default;
-$silver-color	: #cccccc !default;
+//WHITES
+$white				: #fff !default;
+$silver				: #cccccc !default;
 
-//Grays
-$dusty-gray		: #999999 !default;
-$dove-gray		: #666666 !default;
-$mine-shaft		: #333333 !default;
+//GRAYS
+$dusty-gray			: #999999 !default;
+$dove-gray			: #666666 !default;
+$mine-shaft			: #333333 !default;
 
-//Blacks
-$fred			: #000000 !default;
+//BROWNS
+$west-coast			: #68421a !default;
+$kumera				: #915c24 !default;
+$deep-oak			: #402810 !default;
 
-//Browns
-$brown-color	: #68421a !default;
-$brown-light	: #915c24 !default;
-$brown-dark		: #402810 !default;
+//REDS
+$stiletto			: #993333 !default;
+$crail				: #bf4040 !default;
+$crown-of-thorns	: #732626 !default;
 
-//Reds
-$red-color		: #993333 !default;
-$red-light		: #bf4040 !default;
-$red-dark		: #732626 !default;
+//ORANGE
+$potters-clay		: #996633 !default;
+$tussock			: #bf8040 !default;
+$dallas				: #734d26 !default;
 
-//Oranges
-$orange-color	: #996633 !default;
-$orange-light	: #bf8040 !default;
-$orange-dark	: #734d26 !default;
+//YELLOWS
+$sycamore			: #999933 !default;
+$turmeric			: #bfbf40 !default;
+$crete				: #737326 !default;
 
-//Yellows
-$yellow-color	: #999933 !default;
-$yellow-light	: #bfbf40 !default;
-$yellow-dark	: #737326 !default;
+//GREENS
+$emerald			: #40bf80 !default;
+$sea-green			: #339966 !default;
+$green-pea			: #26734d !default;
 
-//Greens
-$green-color	: #339933 !default;
-$green-light	: #40bf40 !default;
-$green-dark		: #267326 !default;
-
-//Blues
-$blue-color		: #333399 !default;
-$blue-light		: #4040bf !default;
-$blue-dark		: #262673 !default;
+//BLUES
+$sapphire			: #333399 !default;
+$governor-bay		: #4040bf !default;
+$astronaut			: #262673 !default;
 
 //Violets
-$indigo-color	: #663399 !default;
-$indigo-light	: #8040bf !default;
-$indigo-dark	: #4d2673 !default;
+$fuchsia-blue		: #8040bf !default;
+$royal-purple		: #663399 !default;
+$meteorite			: #4d2673 !default;
+
+//COLOR THEORY
+
+//TETRAD
+$t-sea-green		: $sea-green;
+$t-sapphire			: $sapphire;
+$t-plum				: #993399;
+$t-sycamore			: $sycamore;
+
+//TRIADIC
+$T-potters-clay		: $potters-clay;
+$T-sea-green 		: $sea-green;
+$T-royal-purple 	: $royal-purple;
+
+//ANALOGOUS
+$A-apple       		: #339933;
+$A-sea-green   		: $sea-green;
+$A-lochinvar   		: #339999;
+
+//COMPLEMENTARY
+$c-sea-green   		: $sea-green;
+$c-rogue       		: #993366;
+
+//SPLIT COMPLEMENTARY
+$sc-stiletto    	: $stiletto;
+$sc-sea-green   	: $sea-green;
+$sc-plum        	: #993399;
+
+//MAIN COLOR SCHEME
+$primary-color		: $T-sea-green	 	!default;
+$secondary-color	: $T-royal-purple	!default;
+$tertiary-color		: $T-potters-clay	!default;
+
+//UTILITIES
+$border-color		: $c-rogue !default;
+$font-color			: $c-rogue !default;
+$link-color			: $secondary-color !default;
+
+
+$colors: black $silver white $mine-shaft $dove-gray $dusty-gray $deep-oak $kumera $west-coast $crown-of-thorns $crail $stiletto $dallas $tussock $potters-clay $crete $turmeric $sycamore $green-pea $sea-green $emerald $astronaut $governor-bay $sapphire $meteorite $royal-purple $fuchsia-blue;
+
+$tetrads: $t-sycamore $t-plum $t-sapphire $t-sea-green;
+
+$triadics: $T-royal-purple $T-sea-green $T-potters-clay;
+
+$analColors: $A-lochinvar $A-sea-green $A-apple;
+
+$complements: $c-rogue $c-sea-green;
+
+$splitComplements: $sc-plum $sc-sea-green $sc-stiletto;
+
+$baseColors: $primary-color;

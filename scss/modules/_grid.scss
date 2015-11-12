@@ -12,8 +12,8 @@
   position: relative;
   width: 100%;
   max-width: $container-width;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .column,
@@ -22,32 +22,42 @@
   float: left;
   box-sizing: border-box;
 }
-.only {
-  background-color: $b-tetrad-color;
-  color: $mine-shaft;
+.third.block.middle {
+  background-color: $sc-sea-green;
+  color: inverse($sc-sea-green);
   text-align: center;
 }
-.left {
-  background-color: $a-tetrad-color;
-  color: $c-tetrad-color;
+.third.block.left {
+  background-color: $sc-stiletto;
+  color: inverse($sc-stiletto);
   text-align: right;
 }
-.right {
-  background-color: $c-tetrad-color;
-  color: $a-tetrad-color;
+.third.block.right {
+  background-color: $sc-plum;
+  color: inverse($sc-plum);
   text-align: left;
 }
-.block {
+.third.block, .half.block2 {
   margin: 0;
   padding: 0;
   min-height: $block-min-height;
   overflow: hidden;
 }
+.half.block.left {
+  background-color: $sc-stiletto;
+  color: inverse($sc-stiletto);
+  text-align: right;
+}
+.half.block.right {
+  background-color: $sc-stiletto;
+  color: inverse($sc-stiletto);
+  text-align: right;
+}
 .top {
-  margin-top: 25%;
+  margin-top: 0%;
 }
 .bottom {
-  margin-bottom: 25%;
+  margin-bottom: 0%;
 }
 // For devices larger than 400px
 // 400px - 432px [Vertical] Phablet
@@ -57,7 +67,7 @@
     padding: 0;
   }
   .top {
-  margin-top: 0%;
+    margin-top: 0%;
   }
   .bottom {
     margin-bottom: 0%;
